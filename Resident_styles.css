@@ -1,0 +1,66 @@
+:root {
+  --accent: #f7585c;
+  --background: #04091c;
+  --text: #f9feff;
+  --cardcolor: #1f2535;
+  --header: #1f2535;
+}
+
+.header{
+    background-color:var(--header);
+ border-radius: 16px;
+ padding: 16px;
+display: flex;
+align-items: center;
+/* border: 1px solid red; */
+height: 50px;
+gap: 10px;
+font-family: 'Myfont', sans-serif;
+}
+.header_img{
+    height: 35px;
+    width: 35px;
+}
+.main_wrapper{
+    margin: 8px;
+    background-color:var(--background);
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    gap: 50px;
+    
+    
+}
+.container{
+/* border: 1px solid green; */
+gap: 50px;
+    /* justify-content: center; */
+
+}
+.card{
+    width: 500px;
+    height: 200px;
+    background-color:var(--cardcolor) ;
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 16px;
+    font-family: 'Myfont', sans-serif;
+}
+.card_title{
+    color: var(--text);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none; /* Убирает точки */
+    padding: 0;       /* Опционально: убирает отступ слева */
+    margin: 0;        /* Опционально: убирает внешние отступы */
+}
+
+@font-face{
+    font-family:'Myfont';
+    src: url('fonts/font.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
